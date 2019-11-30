@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<script> 
+<!-- <script> 
     import cn from 'cn.compose'
     // 原谅我用了两张美女图 ...
     // 本地直接打开访问会有跨域问题
@@ -48,14 +48,14 @@
     ], (base64) => {
         console.log(base64) // 可以拿这个数据直接放在浏览器地址里查看合成后的图
     });
-</script>
+</script> -->
 
-<script type="text/javascript" src="cn.compose.js"></script>
+<script type="text/javascript" src="../dist/cncoder.js"></script>
 <script> 
     // 原谅我用了两张美女图 ...
     // 本地直接打开访问会有跨域问题
     // 记得自己启个服务访问
-    ___cn___compose([
+    cncoder.bitmap.compose([
         {
             src: './bg.jpg',
             x: 0, 
