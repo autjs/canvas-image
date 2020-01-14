@@ -1,4 +1,4 @@
-# cn.compose
+# canvas-image
 > ##### 合成压缩图像 返回Base64数据，
 >
 > ##### 主要用于web前端向服务器发送数据或其它
@@ -9,7 +9,7 @@
 
 ```js
 <script> 
-    import * as cn from 'cn.compose'
+    import * as cn from '@ziki/gm'
     // 本地直接打开访问会有跨域问题
     // 记得自己启个服务访问
     cn.bitmap.compose([

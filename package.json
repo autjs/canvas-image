@@ -1,5 +1,5 @@
 {
-  "name": "cn.compose",
+  "name": "canvas-image",
   "version": "1.0.6",
   "description": "> ##### 合成压缩图像 返回Base64数据，主要用于web前端向服务器发送数据或其它\r >\r > ##### 不用再发给服务器处理了，爽不爽...",
   "main": "src/index.js",
