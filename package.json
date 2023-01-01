@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/cncod/cn.img_composition#readme",
   "devDependencies": {
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^5.0.1"
   }
 }
